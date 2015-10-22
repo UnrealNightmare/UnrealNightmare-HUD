@@ -8,7 +8,7 @@
 		"xpos"			"200"
 		"ypos"			"250"
 		"zpos"			"2"
-		"wide"			"450"
+		"wide"			"250"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -48,12 +48,20 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"35"	[$WIN32]
-		"ypos"			"60"	[$WIN32]
+		"xpos"			"73"	[$WIN32]
+		"xpos_minmode"	"65"	[$WIN32]
+		"xpos"			"83"	[$X360]
+		"ypos"			"33"	[$WIN32]
+		"ypos_minmode"	"40"	[$WIN32]
+		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"5"	[$WIN32]
-		"tall"			"5"	[$WIN32]
-		"visible"		"1"
+		"wide"			"55"	[$WIN32]
+		"wide_minmode"	"40"	[$WIN32]
+		"wide"			"35"	[$X360]
+		"tall"			"55"	[$WIN32]
+		"tall_minmode"	"40"	[$WIN32]
+		"tall"			"35"	[$X360]
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -91,34 +99,14 @@
 		"font"			"BikoBold56"
 		"fgcolor"		"0 0 0 255"
 	}
-	
-	"HealthBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthBG"
-		"xpos"			"45"
-		"ypos"			"30"
-		"zpos"			"-1"
-		"wide"			"135"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
-		
-		if_mvm
-		{
-			"visible"	"0"
-		}
-	}
-	
 	"TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"44"
-		"ypos"			"100"
+		"xpos"			"85"
+		"ypos"			"80"
 		"zpos"			"2"
-		"wide"			"136"
+		"wide"			"80"
 		"tall"	 		"10"
 		"autoResize"	"0"
 		"pinCorner"		"0"

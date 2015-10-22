@@ -2395,8 +2395,7 @@ Scheme
 			}
 		}
 		
-		
-	// Biko Regular	
+		//Biko Regular
 		
 		BikoRegular12
 		{
@@ -2467,14 +2466,10 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-	}
-	
-	
-	
-	// Biko Bold
-	
-	    BikoBold12
+		
+		//Biko Bold fonts - HP/ammo
+		
+		BikoBold12
 		{
 			"1"
 			{
@@ -2552,9 +2547,9 @@ Scheme
 				"tall"		"56"
 				"antialias" "1"
 			}
-		
+		}
 
-	
+	}
 	
 	// These are the fonts I'm using in my custom HUD
 	
